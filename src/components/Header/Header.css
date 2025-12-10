@@ -1,0 +1,84 @@
+.header-container {
+    background-color: #ffffff;
+    padding: 0.3rem 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Pushes the branding left and cart right */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Container for the logo and title */
+.header-branding {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Space between logo and title */
+}
+
+/* Styles for the new logo */
+.header-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* This makes the image round */
+    border: 2px solid #e85a4f; /* Matches the title color */
+    object-fit: cover;
+    padding:5px;
+}
+
+.header-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #e85a4f;
+    margin: 0;
+    font-family: 'Pacifico', cursive; /* A playful, food-themed font */
+    padding:15px;
+}
+
+.cart-button {
+    background-color: #f4f4f4;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative; /* Needed for the cart count positioning */
+}
+
+.cart-button:hover {
+    background-color: #e9e9e9;
+    border-color: #ccc;
+    transform: scale(1.05);
+}
+
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #e85a4f;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: 2px solid white;
+}
+.search-bar{
+    padding:30px;
+    width: 50px;
+    border: 3px solid green;
+}
+

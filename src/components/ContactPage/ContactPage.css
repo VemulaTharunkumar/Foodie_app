@@ -1,0 +1,97 @@
+/* Use the class name from your JSX for consistency */
+.contact-page-container {
+    padding: 2rem 1rem;
+    animation: fadeIn 0.5s ease-in-out;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.contact-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 3rem;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.team-member-card {
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0; /* Start hidden for the animation */
+    animation: fadeInUp 0.6s ease-out forwards; /* Apply the animation */
+}
+
+/* Add different delays for a staggered effect */
+.team-member-card:nth-child(2) { animation-delay: 0.1s; }
+.team-member-card:nth-child(3) { animation-delay: 0.2s; }
+.team-member-card:nth-child(4) { animation-delay: 0.3s; }
+.team-member-card:nth-child(5) { animation-delay: 0.4s; }
+.team-member-card:nth-child(6) { animation-delay: 0.5s; }
+
+
+.team-member-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.team-member-photo {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.team-member-info {
+    padding: 1.5rem;
+}
+
+.team-member-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem 0;
+    color: #333;
+}
+
+.team-member-role {
+    font-size: 1rem;
+    color: #e85a4f;
+    font-weight: 500;
+}
+
+/* THIS IS THE MISSING PIECE */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* A fallback fadeIn for the main container */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+

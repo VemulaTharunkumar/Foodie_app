@@ -1,0 +1,46 @@
+.app-footer {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+  z-index: 40;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.nav-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #4b5563; /* gray-600 */
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-button:hover {
+  color: #f97316; /* orange-500 */
+}
+
+.nav-button.active {
+  color: #f97316; /* orange-500 */
+}
+
+.nav-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.nav-text {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
