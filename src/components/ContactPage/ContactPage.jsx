@@ -50,7 +50,7 @@ const ContactPage = () => {
             <div className="team-grid">
                 {teamMembers.map((member, index) => (
                     <div key={index} className="team-member-card">
-                        <img src='https://static.vecteezy.com/system/resources/previews/030/320/735/large_2x/rooftop-ambiance-hooded-man-with-hidden-face-copy-space-intensifying-intrigue-for-social-media-post-size-ai-generated-free-photo.jpg' className="team-member-photo" />
+                        <img src='https://static.vecteezy.com/system/resources/previews/030/320/735/large_2x/rooftop-ambiance-hooded-man-with-hidden-face-copy-space-intensifying-intrigue-for-social-media-post-size-ai-generated-free-photo.jpg' alt="contact_image" className="team-member-photo" />
                         <div className="team-member-info">
                             <h3 className="team-member-name">{member.name}</h3>
                             <p className="team-member-role">{member.role}</p>

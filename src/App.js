@@ -17,7 +17,8 @@ const foodData = {
         { id: 't3', name: 'Poha', price: 35,Qnty:1, image: 'https://img.freepik.com/premium-photo/photography-tasty-indian-poha-plate_1288657-53149.jpg', ingredients: ['Flattened Rice', 'Onion', 'Peanuts', 'Turmeric', 'Lemon'] },
         { id: 't4', name: 'Upma', price: 45, Qnty:1,image: 'https://www.seema.com/wp-content/uploads/2022/08/Upma.jpg', ingredients: ['Semolina', 'Mustard Seeds', 'Onion', 'Mixed Vegetables', 'Ghee'] },
         { id: 't5', name: 'Medu Vada', price: 50,Qnty:4, image: 'https://images.slurrp.com/prod/recipe_images/transcribe/breakfast/Medu-Vada.webp', ingredients: ['Urad Dal', 'Green Chillies', 'Ginger', 'Coconut Chutney', 'Sambar'] },
-        {id:'t6',name:'Mysoore Bajji',price:30,Qnty:4,image:'https://i.ytimg.com/vi/ztRWK6kaLCk/maxresdefault.jpg',ingredients:['Maida','Oil','Water','Coconut','Groundnuts']}
+        {id:'t6',name:'Mysoore Bajji',price:30,Qnty:4,image:'https://i.ytimg.com/vi/ztRWK6kaLCk/maxresdefault.jpg',ingredients:['Maida','Oil','Water','Coconut','Groundnuts']},
+        {id:'t7',name:'Puri',price:30,Qnty:2,image:'https://i.ytimg.com/vi/toUUS4VRTLQ/maxresdefault.jpg',ingredients:['Wheat-flour','Aloo','Freedom refined sunflower oil']}
     ],
     snacks: [
         { id: 's1', name: 'Samosa Chaat', price: 50,Qnty:1, image: 'https://cdn.grofers.com/assets/search/usecase/banner/samosa_chaat_01.png', ingredients: ['Samosa', 'Yogurt', 'Tamarind Chutney', 'Mint Chutney', 'Onions', 'Sev'] },

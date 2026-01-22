@@ -5,7 +5,12 @@ const AboutPage = () => (
     <div className="about-page">
         <h2 className="about-title">About Foodie's Feast</h2>
         <p className="about-text">
-            This is where the explanation about your service will go. You can talk about your mission to deliver the best food, the quality of your ingredients, and the passion that goes into every dish. This section is designed to be attractive and engaging!
+           🌍 Our Vision
+
+            To become a trusted food delivery solution that supports local restaurants and provides customers with a seamless food ordering experience.<br/>
+            🎯 Our Mission
+
+Our mission is to deliver fresh, hygienic, and delicious food to your doorstep while saving your time and effort. We focus on customer satisfaction, quality service, and quick delivery.
         </p>
     </div>
 );
